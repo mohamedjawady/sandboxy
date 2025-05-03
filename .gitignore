@@ -1,0 +1,37 @@
+# Default Project IDX ignores
+.idx/
+.firebase/
+firebase.json
+.firebaserc
+*.log
+
+# Next.js specific ignores (keeping for reference, but maybe remove later)
+node_modules/
+# .next/
+# .out/
+# coverage/
+# *.tsbuildinfo
+
+# Python specific ignores
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+*.log*
+
+# IDE specific ignores
+.idea/
+.vscode/ # Keep settings.json if desired, but ignore workspace state
+
+# Vector Store Index
+faiss_index.faiss
+faiss_index.pkl
+
+# Temporary Files
+*.tmp
+*.swp
+*~

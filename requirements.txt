@@ -1,0 +1,13 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+langchain-google-genai
+faiss-cpu # Or faiss-gpu if you have CUDA and a compatible GPU
+pypdf
+python-evtx
+pywin32; sys_platform == 'win32' # Optional for better EVTX rendering on Windows
+requests # Added dependency for PyPDF loader
+beautifulsoup4 # Added dependency for PyPDF loader
+lxml # Added dependency for PyPDF loader
+tiktoken # Added dependency for text splitting
